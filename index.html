@@ -13,8 +13,6 @@
     <p>Select an action from the drop-down menu and then click the 'Go' button to perform the action.</p>
     <p>
       <select id="menu">
-        <option value="display-all">Display All</option>
-        <option value="display-range">Display Range</option>
         <option value="generous-donor">Generous Donor</option>
         <option value="hacker-attack">Hacker Attack</option>
         <option value="investment-stats">Investment Stats</option>
@@ -24,7 +22,9 @@
       </select>
       <button id='go'>Go</button>
     </p>
-    <hr>
+
+    <!-- Canvas for drawing -->
+    <canvas id="myCanvas"></canvas>
 
     <!-- Div that may be used for output -->
     <div id="output">
