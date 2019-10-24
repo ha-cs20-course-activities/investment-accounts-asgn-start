@@ -7,8 +7,8 @@ cnv.width = 800;
 cnv.height = 500;
 
 // Global Variables
-let accounts = [1000, 2000, 3000, 4000, 5000, 6000];
-let max = 6000; // array values should be b/t 0 and max
+let accounts = [];
+let max = 5000; // array values should be b/t 0 and max
 
 // Main Program Loop
 requestAnimationFrame(draw);
